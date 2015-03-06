@@ -9,3 +9,6 @@ All of the code are open and free, so you can download and then use them. If you
 
 ###A demo of transition-timing-function (CSS)
 <code>http://yoosan.me/transition.html</code>
+
+###2048 game imitation(Javascript)
+<code>http://yoosan.me/2048.html</code>
