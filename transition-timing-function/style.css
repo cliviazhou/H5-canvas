@@ -1,0 +1,68 @@
+
+body{
+  background-color: #8B8B7A;
+}
+
+header{
+  margin: 30px auto;
+  font-family: Arial;
+  color: #9400d3;
+  text-align: center;
+}
+header h2{
+  padding-top: 20px;
+  font-size: 35px;
+}
+header p{
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+div div{
+  height:50px;
+  width: 15%;
+  backrground:linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.4) 70%);
+  box-shaow:inset 0 -10px 25px rgba(0,0,0,0.4);
+  border-radius:10px;
+  transition-property:width;
+  transition-duration: 3s;
+}
+div div p{
+  padding-left:20px;
+  padding-top: 10px;
+  font-family:Arial;
+  font-size:28px;
+  color:rgba(0,0,0,0.5);
+  
+}
+#wrapper:hover div, #wrapper:focus div{
+  width:100%;
+}
+#timing1{
+  background-color:blue;
+  transition-timing-function:linear;
+}
+#timing2{
+  background-color: green;
+  transition-timing-function:ease;
+}
+#timing3{
+  background-color: orange;
+  transition-timing-function: ease-out;
+}
+#timing4{
+  background-color: red;
+  transition-timing-function: ease-in;
+}
+#timing5{
+  background-color: white;
+  transition-timing-function: ease-in-out;
+}
+#timing6{
+  background-color: yellow;
+  transition-timing-function: step(10);
+}
+#timing7{
+  background-color: purple;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 0.5);
+}
