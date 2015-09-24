@@ -1,6 +1,6 @@
-##Become web-font Dev
+## For fun
 
-I'm a freshman of web-font, so this project is just for my practice of **javascript** and **html+css.**
+I'm a freshman of web-front, so this project is just for my practice of **javascript** and **html+css.**
 
 All of the code are open and free, so you can download and then use them. If you have some question, please contact me by the e-mail that you can find on my homepage.
 
